@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/user_service"
+    username: root
+    password: mavryk
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  signerKey: "olI0tufJXDbjDfjaEjhw/7YtQY8OFAthbVL/MAd5xdq/A2B1Z+jWJRmUhnJpfJDM"
